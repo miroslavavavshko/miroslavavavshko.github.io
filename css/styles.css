@@ -1,0 +1,151 @@
+html {
+    font-family: 'PT Serif', serif;
+    color: #26303c;
+    font-size: 100%;
+    line-height: 1.3em;
+    overflow-x: hidden;
+}
+
+.table th, .table td {
+    border-top: none !important;
+    padding-bottom: 0 !important;
+}
+
+ul {
+    padding-left: 2rem !important;
+    margin-top: -3px;
+    line-height: 2rem;
+}
+
+ul li{
+    line-height: 1.8rem;
+}
+
+p {
+    padding-left: 0.75rem !important;
+    margin-top: 0;
+}
+
+.table td, .table th {
+    /* border-top: none !important; */
+}
+
+td {
+    font-size: 16px;
+}
+
+section.info {
+    padding-top:30px;
+}
+
+td.text-right {
+    font-size: 14px;
+}
+
+td span.name {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+td span.caption {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 30px;
+}
+
+td.brief {
+    padding-top: 0;
+    padding-bottom: 30px !important;
+}
+
+img.countries {
+    height: 9px;
+    position: relative;
+}
+
+tr td:first-child {
+    width: 30%;
+}
+
+td.diploma-institute{
+    padding-top: 8px !important;
+    padding-bottom: 20px !important;
+    line-height: 24px;
+}
+
+td.diploma-technical{
+    line-height: 24px;
+    padding-top: 8px !important;
+}
+
+tr.withlist td {
+    margin: 0;
+    padding: 0;
+}
+
+span.profession {
+    padding-left: 0.75rem;
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+td.text-right.portfoliolinks {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+td.text-right.skills {
+    font-size: 16px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+p.goal {
+    font-style: italic;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+ul.flags {
+    list-style: none;
+    padding-left: 1rem !important;
+    line-height: 1.5rem;
+}
+
+ul.social{
+    list-style:none;
+    padding-left: 1rem !important;
+    line-height: 1.5rem;
+}
+
+section.skills ul li{
+    line-height: 1.5em;
+    padding-top: 2px;
+}
+
+.top-line{
+    text-align: right;
+    padding-left: 8px !important;
+    min-height: 0px !important;
+}
+
+.top-line img.countries{
+    margin-left: 5px !important;
+    float: left;
+}
+
+section.data{
+    font-size: 68%;
+    text-align: center;
+}
+
+.top-text{
+    font-size: 68%;
+    cursor: default;
+    opacity: .8;
+    padding-right: 16px;
+}
