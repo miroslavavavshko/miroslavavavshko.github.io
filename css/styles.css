@@ -15,6 +15,7 @@ ul {
     padding-left: 2rem !important;
     margin-top: -3px;
     line-height: 2rem;
+    list-style: circle;
 }
 
 ul li{
@@ -65,19 +66,19 @@ img.countries {
     position: relative;
 }
 
+img.countries-nazwisko {
+    height: 9px;
+    position: relative;
+	top: -1px;
+}
+
 tr td:first-child {
     width: 30%;
 }
 
-td.diploma-institute{
-    padding-top: 8px !important;
+td.diploma-school{
+    line-height: 20px;
     padding-bottom: 20px !important;
-    line-height: 24px;
-}
-
-td.diploma-technical{
-    line-height: 24px;
-    padding-top: 8px !important;
 }
 
 tr.withlist td {
@@ -88,8 +89,28 @@ tr.withlist td {
 span.profession {
     padding-left: 0.75rem;
     display: block;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.telefon-number{
+	margin-top: 12px;
+	display: inline-block;
+}
+
+.telefon-number span.telefon-pl{
+	position: relative;
+	font-size: 16px;
+}
+
+.telefon-number span.telefon-play{
+	position: relative;
+	font-size: 16px;
+}
+
+img.image-phone {
+	position: relative;
+	top:2px;
 }
 
 td.text-right.portfoliolinks {
@@ -97,7 +118,13 @@ td.text-right.portfoliolinks {
     font-weight: 700;
 }
 
-td.text-right.skills {
+td.text-right.skills-pc {
+    font-size: 16px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+td.text-right.skills-real {
     font-size: 16px;
     font-weight: 700;
     word-break: break-word;
@@ -112,8 +139,12 @@ p.goal {
 
 ul.flags {
     list-style: none;
-    padding-left: 1rem !important;
+    padding-left: 0rem !important;
     line-height: 1.5rem;
+}
+
+ul.flags li {
+    display: inline;
 }
 
 ul.social{
@@ -122,9 +153,19 @@ ul.social{
     line-height: 1.5rem;
 }
 
-section.skills ul li{
+section.skills-pc ul li{
     line-height: 1.5em;
     padding-top: 2px;
+}
+
+
+section.skills-real ul li{
+    line-height: 1.5em;
+    padding-top: 2px;
+}
+
+td.skills-real ul{
+    list-style:disc ;
 }
 
 .top-line{
