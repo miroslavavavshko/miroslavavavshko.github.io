@@ -118,13 +118,7 @@ td.text-right.portfoliolinks {
     font-weight: 700;
 }
 
-td.text-right.skills-pc {
-    font-size: 16px;
-    font-weight: 700;
-    word-break: break-word;
-}
-
-td.text-right.skills-real {
+td.text-right.skills {
     font-size: 16px;
     font-weight: 700;
     word-break: break-word;
@@ -153,18 +147,13 @@ ul.social{
     line-height: 1.5rem;
 }
 
-section.skills-pc ul li{
+
+section.skills ul li{
     line-height: 1.5em;
     padding-top: 2px;
 }
 
-
-section.skills-real ul li{
-    line-height: 1.5em;
-    padding-top: 2px;
-}
-
-td.skills-real ul{
+td.skills ul{
     list-style:disc ;
 }
 
