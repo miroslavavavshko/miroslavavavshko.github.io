@@ -1,0 +1,39 @@
+@media print {
+    a
+    {
+      text-decoration:none!important;
+    }
+    
+    img.countries-surname,img.rounded,img.print
+    {
+      visibility:hidden;
+    }
+
+    img.countries{
+        display: none;
+    }
+
+    td.pdf-table{
+        display:none;
+    }
+    
+    .top-text,section.data{
+        visibility: visible;
+    }
+
+    .exclamation{
+        padding-left:0px;
+      
+    }
+
+    .top-text{
+        opacity:.4;
+    }
+}
+        
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .col-md-12 {
+        max-width: 71% !important;
+    }
+}

@@ -1,179 +1,378 @@
-html {
-    font-family: 'PT Serif', serif;
-    color: #26303c;
-    font-size: 100%;
-    line-height: 1.3em;
-    overflow-x: hidden;
-}
-
-.table th, .table td {
-    border-top: none !important;
-    padding-bottom: 0 !important;
-}
-
-ul {
-    padding-left: 2rem !important;
-    margin-top: -3px;
-    line-height: 2rem;
-    list-style: circle;
-}
-
-ul li{
-    line-height: 1.8rem;
-}
-
-p {
-    padding-left: 0.75rem !important;
-    margin-top: 0;
-}
-
-.table td, .table th {
-    /* border-top: none !important; */
-}
-
-td {
-    font-size: 16px;
-}
-
-section.info {
-    padding-top:30px;
-}
-
-td.text-right {
-    font-size: 14px;
-}
-
-td span.name {
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 40px;
-}
-
-td span.caption {
-    font-size: 24px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 30px;
-}
-
-td.brief {
-    padding-top: 0;
-    padding-bottom: 30px !important;
-}
-
-img.countries {
-    height: 9px;
-    position: relative;
-}
-
-img.countries-nazwisko {
-    height: 9px;
-    position: relative;
-	top: -1px;
-}
-
-tr td:first-child {
-    width: 30%;
-}
-
-td.diploma-school{
-    line-height: 20px;
-    padding-bottom: 20px !important;
-}
-
-tr.withlist td {
-    margin: 0;
-    padding: 0;
-}
-
-span.profession {
-    padding-left: 0.75rem;
-    display: block;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-
-.telefon-number{
-	margin-top: 12px;
-	display: inline-block;
-}
-
-.telefon-number span.telefon-pl{
-	position: relative;
-	font-size: 16px;
-}
-
-.telefon-number span.telefon-play{
-	position: relative;
-	font-size: 16px;
-}
-
-img.image-phone {
-	position: relative;
-	top:2px;
-}
-
-td.text-right.portfoliolinks {
-    font-size: 16px;
+/* cyrillic-ext */
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/PTSerif-Regular-bold-cyrillic.woff2') format('woff2');
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/PTSerif-Regular-normal-cyrillic-ext.woff2') format('woff2');
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/PTSerif-Regular-normal-latin-ext.woff2') format('woff2');
+  }
+  /* latin */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/PTSerif-Regular-normal-latin.woff2') format('woff2');
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
     font-weight: 700;
-}
-
-td.text-right.skills {
-    font-size: 16px;
+    src: url('../fonts/PTSerif-Regular-bold-cyrillic-ext.woff2') format('woff2');
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
     font-weight: 700;
-    word-break: break-word;
+    src: url('../fonts/PTSerif-Regular-bold-cyrillic.woff2') format('woff2');
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/PTSerif-Regular-bold-latin-ext.woff2') format('woff2');
+  }
+  /* latin */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/PTSerif-Regular-bold-latin.woff2') format('woff2');
+  }
+  
+  @font-face
+{
+  font-family:'PT Serif';
+  font-style:normal;
+  font-weight:700;
+  src:url(../fonts/PTSerif-Regular-bold-latin.woff2) format(woff2);
 }
 
-p.goal {
-    font-style: italic;
-    margin-top: 6px;
-    font-size: 13px;
-    font-weight: 100;
+.status
+{
+  -webkit-background-clip:padding-box;
+  background-clip:padding-box;
+  border:1px solid rgba(133,133,133,0.2);
+  border-radius:.25rem!important;
+  display:inline;
+  font-size:.72rem;
+  line-height:0;
+  opacity:.9;
+  padding:4px;
 }
 
-ul.flags {
-    list-style: none;
-    padding-left: 0rem !important;
-    line-height: 1.5rem;
+.table th,.table td
+{
+  border-top:none!important;
+  padding-bottom:0!important;
 }
 
-ul.flags li {
-    display: inline;
+.table thead th
+{
+  border-bottom:0 solid #dee2e6!important;
 }
 
-ul.social{
-    list-style:none;
-    padding-left: 1rem !important;
-    line-height: 1.5rem;
+.table-exclamation td
+{
+  font-size:12px;
+  padding-bottom:0!important;
+  padding-top:0!important;
 }
 
-
-section.skills ul li{
-    line-height: 1.5em;
-    padding-top: 2px;
+.telefon-number
+{
+  color:#000;
+  display:inline-block;
+  margin-top:16px;
 }
 
-.top-line{
-    text-align: right;
-    padding-left: 8px !important;
-    min-height: 0px !important;
+.telefon-number span.telefon-pl,.telefon-number span.telefon-play
+{
+  font-size:16px;
+  position:relative;
 }
 
-.top-line img.countries{
-    margin-left: 5px !important;
-    float: left;
+.top-line
+{
+  min-height:0!important;
+  text-align:right;
 }
 
-section.data{
-    font-size: 68%;
-    text-align: center;
+.top-line img.countries
+{
+  float:left;
+  padding-bottom:6px;
 }
 
-.top-text{
-    font-size: 68%;
-    cursor: default;
-    opacity: .8;
-    padding-right: 16px;
+.top-line a.flag-great-britain img
+{
+  margin-left:5px !important;
 }
 
- 
+.top-text
+{
+  cursor:default;
+  font-size:68%;
+  opacity:.8;
+  padding-right:16px;
+  visibility:hidden;
+}
+
+@font-face
+{
+  font-family:'PT Serif';
+  font-style:normal;
+  font-weight:700;
+  src:url(../fonts/PTSerif-Regular-bold-latin.woff2) format(woff2);
+}
+
+a
+{
+  text-decoration:none;
+}
+
+a:hover
+{
+  text-decoration:underline;
+}
+
+b
+{
+  color:#000;
+}
+
+html
+{
+  color:#26303c;
+  font-family:'PT Serif', serif!important;
+  font-size:100%;
+  line-height:1.3em;
+  overflow-x:hidden;
+}
+
+img.countries
+{
+  height:9px;
+  position:relative;
+}
+
+img.countries-surname
+{
+  height:9px;
+  position:relative;
+  top:-1px;
+}
+
+img.image-phone
+{
+  position:relative;
+  top:2px;
+}
+
+img.pdf
+{
+  cursor:pointer;
+  position: relative;
+  top: 5px;
+}
+
+img.print
+{
+  background-color:transparent;
+  border:none;
+  bottom:5px;
+  cursor:pointer;
+  opacity:0;
+  position:fixed;
+  right:5px;
+  vertical-align:middle;
+  -moz-transition:opacity .7s ease-out;
+  -o-transition:opacity .7s ease-out;
+  -webkit-transition:opacity .7s ease-out;
+  transition:opacity .7s ease-out;
+}
+
+img.print:hover
+{
+  -moz-transition:opacity .7s ease-out;
+  -o-transition:opacity .7s ease-out;
+  -webkit-transition:opacity .7s ease-out;
+  opacity:1;
+  transition:opacity .7s ease-out;
+}
+
+p
+{
+  margin-top:0;
+  padding-left:.75rem!important;
+}
+
+p.goal
+{
+  font-size:13px;
+  font-style:italic;
+  font-weight:100;
+  margin-top:6px;
+}
+
+section.info
+{
+  padding-top: 12px;
+}
+
+section.data
+{
+  visibility: hidden;
+  font-size:68%;
+  text-align:center;
+  color:#000;
+}
+
+section.skills ul li
+{
+  line-height:1.5em;
+  padding-top:2px;
+}
+
+span.exclamation_text
+{
+  display:inline-block;
+  font-size:12px;
+  padding-bottom:14px;
+}
+
+span.exclamation_text img
+{
+  margin-bottom:1px;
+}
+
+span.profession
+{
+  display:block;
+  padding-bottom:14px;
+  padding-left:.75rem;
+  padding-top:14px;
+}
+
+td
+{
+  font-size:16px;
+}
+
+td span.caption
+{
+  color:#000;
+  display:block;
+  font-size:24px;
+  font-weight:700;
+  margin-bottom:30px;
+}
+
+td span.name
+{
+  color:#000;
+  display:inline-block;
+  font-size:24px;
+  font-weight:700;
+  line-height:34px;
+  margin-bottom:8px;
+}
+
+td.brief
+{
+  padding-bottom:30px!important;
+  padding-top:0;
+}
+
+td.diploma-school
+{
+  line-height:20px;
+  padding-bottom:16px!important;
+}
+
+td.pdf-table
+{
+  padding:0!important;
+}
+
+td.text-right
+{
+  font-size:14px;
+}
+
+td.text-right.portfoliolinks
+{
+  font-size:16px;
+  font-weight:700;
+}
+
+td.text-right.skills
+{
+  font-size:16px;
+  font-weight:700;
+  word-break:break-word;
+}
+
+th.w-50
+{
+  margin-top:0!important;
+  padding-top:0!important;
+}
+
+tr td:first-child
+{
+  width:30%;
+}
+
+tr.withlist td
+{
+  margin:0;
+  padding:0;
+}
+
+ul
+{
+  line-height:2rem;
+  list-style:circle;
+  margin-top:-3px;
+  padding-left:2rem!important;
+}
+
+ul li
+{
+  line-height:1.8rem;
+}
+
+ul.flags
+{
+  line-height:1.5rem;
+  list-style:none;
+  padding-left:0!important;
+}
+
+ul.flags li
+{
+  display:inline;
+}
+
+ul.social
+{
+  line-height:1.5rem;
+  list-style:none;
+  padding-left:1rem!important;
+}
