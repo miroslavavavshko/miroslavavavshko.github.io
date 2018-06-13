@@ -12,10 +12,6 @@
     img.countries-lang{
         display: none;
     }
-
-    td.pdf-table{
-        display:none;
-    }
     
     .top-text,section.data{
         visibility: visible;
