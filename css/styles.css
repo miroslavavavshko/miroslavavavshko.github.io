@@ -1,66 +1,10 @@
-/* cyrillic-ext */
-@font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/PTSerif-Regular-bold-cyrillic.woff2') format('woff2');
-  }
-  /* cyrillic */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/PTSerif-Regular-normal-cyrillic-ext.woff2') format('woff2');
-  }
-  /* latin-ext */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/PTSerif-Regular-normal-latin-ext.woff2') format('woff2');
-  }
-  /* latin */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/PTSerif-Regular-normal-latin.woff2') format('woff2');
-  }
-  /* cyrillic-ext */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/PTSerif-Regular-bold-cyrillic-ext.woff2') format('woff2');
-  }
-  /* cyrillic */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/PTSerif-Regular-bold-cyrillic.woff2') format('woff2');
-  }
-  /* latin-ext */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/PTSerif-Regular-bold-latin-ext.woff2') format('woff2');
-  }
-  /* latin */
-  @font-face {
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/PTSerif-Regular-bold-latin.woff2') format('woff2');
-  }
-  
-  @font-face
+html
 {
-  font-family:'PT Serif';
-  font-style:normal;
-  font-weight:700;
-  src:url(../fonts/PTSerif-Regular-bold-latin.woff2) format(woff2);
+  color:#26303c;
+  font-family:'PT Sans', serif!important;
+  font-size:100%;
+  line-height:1.3em;
+  overflow-x:hidden;
 }
 
 .status
@@ -101,7 +45,7 @@
   margin-top:16px;
 }
 
-.telefon-number span.telefon-pl,.telefon-number span.telefon-play
+.telefon-number span.telefon-pl,.telefon-number span.telefon
 {
   font-size:16px;
   position:relative;
@@ -113,13 +57,13 @@
   text-align:right;
 }
 
-.top-line img.countries
+.top-line img.countries-lang
 {
   float:left;
   padding-bottom:6px;
 }
 
-.top-line a.flag-great-britain img
+.top-line a img
 {
   margin-left:5px !important;
 }
@@ -131,14 +75,6 @@
   opacity:.8;
   padding-right:16px;
   visibility:hidden;
-}
-
-@font-face
-{
-  font-family:'PT Serif';
-  font-style:normal;
-  font-weight:700;
-  src:url(../fonts/PTSerif-Regular-bold-latin.woff2) format(woff2);
 }
 
 a
@@ -156,16 +92,13 @@ b
   color:#000;
 }
 
-html
+img.countries
 {
-  color:#26303c;
-  font-family:'PT Serif', serif!important;
-  font-size:100%;
-  line-height:1.3em;
-  overflow-x:hidden;
+  height:9px;
+  position:relative;
 }
 
-img.countries
+img.countries-lang
 {
   height:9px;
   position:relative;
@@ -188,18 +121,17 @@ img.pdf
 {
   cursor:pointer;
   position: relative;
-  top: 5px;
 }
 
 img.print
 {
   background-color:transparent;
   border:none;
-  bottom:5px;
+  bottom:16px;
   cursor:pointer;
   opacity:0;
   position:fixed;
-  right:5px;
+  left:16px;
   vertical-align:middle;
   -moz-transition:opacity .7s ease-out;
   -o-transition:opacity .7s ease-out;
@@ -245,7 +177,7 @@ section.data
 
 section.skills ul li
 {
-  line-height:1.5em;
+  line-height:1.7em;
   padding-top:2px;
 }
 
@@ -278,7 +210,7 @@ td span.caption
 {
   color:#000;
   display:block;
-  font-size:24px;
+  font-size:26px;
   font-weight:700;
   margin-bottom:30px;
 }
@@ -287,7 +219,7 @@ td span.name
 {
   color:#000;
   display:inline-block;
-  font-size:24px;
+  font-size:26px;
   font-weight:700;
   line-height:34px;
   margin-bottom:8px;
@@ -301,7 +233,7 @@ td.brief
 
 td.diploma-school
 {
-  line-height:20px;
+  line-height:18px;
   padding-bottom:16px!important;
 }
 
@@ -375,4 +307,67 @@ ul.social
   line-height:1.5rem;
   list-style:none;
   padding-left:1rem!important;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(199, 67, 67, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+  transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show,
+.cd-top.cd-top--fade-out,
+.cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top.cd-top--fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+.cd-top:hover {
+  background-color: #c74343;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+.text-left{
+  padding-left: 10px;
 }
