@@ -429,8 +429,8 @@ ul.social
 .cd-top.cd-top--show,
 .cd-top.cd-top--fade-out,
 .cd-top:hover {
-  -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
-  transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s !important;
+  transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s  !important;
 }
 
 .cd-top.cd-top--show {
@@ -467,4 +467,19 @@ ul.social
 
 .text-left{
   padding-left: 10px;
+}
+
+#go-top {
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
 }
