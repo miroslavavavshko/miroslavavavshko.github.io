@@ -1,56 +1,58 @@
-@media only screen and (min-width: 1365px)  {
-
-    .top.col-md-12 {
-        max-width: 61% !important;
-    }
-
-    .top.col-xl-8 {
-        max-width: 57.666667%;
-    }
+@media only screen and (min-width: 1365px) {
+	.top.col-md-12 {
+		max-width: 61% !important;
+	}
+	.top.col-xl-8 {
+		max-width: 57.666667%;
+	}
 }
 
-@media only screen and (min-width: 992px)  and (max-width: 1365px) {
-
-    .top.col-lg-11 {
-        max-width: 79.333333% !important;
-    }
-    
-    .top.col-md-12 {
-        max-width: 79.333333% !important;
-    }
+@media only screen and (min-width: 992px) and (max-width: 1365px) {
+	.top.col-lg-11 {
+		max-width: 79.333333% !important;
+	}
+	.top.col-md-12 {
+		max-width: 79.333333% !important;
+	}
 }
 
-
-@media only screen and (min-width: 768px)  and (max-width: 992px) {     
-
-    .top.col-md-12 {
-        max-width: 100% !important;
-    }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.top.col-md-12 {
+		max-width: 100% !important;
+	}
 }
 
-@media only screen and (max-width: 768px) {   
-
-    img.print,img.print-color,img.print-color-pdf,img.print-color-no{
-        position: relative !important;
-    }
-
-    img.print{
-        left:74px !important;
-        bottom: 44px !important;
-    }
-
-    img.print-color{
-        left:0 !important;
-        bottom: 0 !important;
-    }
-
-    img.print-color-pdf{
-        left:11px !important;
-        bottom: 0 !important;
-    }
-
-    img.print-color-no{
-        left:23px !important;
-        bottom: 0 !important;
-    }
+@media only screen and (max-width: 768px) {
+	img.print, img.print-color, img.print-color-pdf, img.print-color-no {
+		position: relative !important;
+	}
+	img.print {
+		left: 73px !important;
+		bottom: 64px !important;
+	}
+	img.print-color {
+		left: 0 !important;
+		bottom: 16px !important;
+	}
+	img.print-color-no {
+		left: 11px !important;
+		bottom: 16px !important;
+	}
+	img.print-color-pdf {
+		left: 23px !important;
+		bottom: 16px !important;
+	}
+	#go-top {
+		width: 36px!important;
+		height: 36px!important;
+	}
+	section.education td.text-right {
+		font-size: 13px !important;
+	}
+	section.courses td.text-right {
+		font-size: 13px !important;
+	}
+	section.experience td.text-right {
+		font-size: 13px !important;
+	}
 }
