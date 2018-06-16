@@ -63,9 +63,9 @@ html
   padding-bottom:6px;
 }
 
-.top-line a img
+.top-line a img:not(.polska-margin)
 {
-  margin-left:5px !important;
+  margin-left:9px !important;
 }
 
 .top-text
@@ -100,8 +100,10 @@ img.countries
 
 img.countries-lang
 {
-  height:9px;
-  position:relative;
+  height: 9px;
+  position: relative;
+  left: 13px;
+  top: 3px;
 }
 
 img.countries-surname
@@ -185,11 +187,9 @@ img.print-color:hover
   transition:opacity .7s ease-out;
 }
 
-img.print-color.active, img.print-color-pdf.active, img.print-color-no.active
+img.print-color.active,img.print-color-pdf.active,img.print-color-no.active
 {
-
   opacity: 1;
-
 }
 
 img.print-color-pdf
@@ -243,14 +243,7 @@ img.print-color-no:hover
   opacity: 1;
   transition:opacity .7s ease-out;
 }
-
-.test{
-  left: 16px;
-    bottom: 10px;
-    position:sticky;
-}
  
-
 p
 {
   margin-top:0;

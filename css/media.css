@@ -27,3 +27,30 @@
         max-width: 100% !important;
     }
 }
+
+@media only screen and (max-width: 768px) {   
+
+    img.print,img.print-color,img.print-color-pdf,img.print-color-no{
+        position: relative !important;
+    }
+
+    img.print{
+        left:74px !important;
+        bottom: 44px !important;
+    }
+
+    img.print-color{
+        left:0 !important;
+        bottom: 0 !important;
+    }
+
+    img.print-color-pdf{
+        left:11px !important;
+        bottom: 0 !important;
+    }
+
+    img.print-color-no{
+        left:23px !important;
+        bottom: 0 !important;
+    }
+}
