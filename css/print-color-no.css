@@ -40,5 +40,10 @@
 
 	td.padding-for-print {
 		padding-top: 80px !important;
-	}
+    }
+    
+
+    img.rounded,img.countries-surname,img.countries{
+        visibility: hidden;
+    }
 }

@@ -51,19 +51,19 @@ html
   position:relative;
 }
 
-.top-line
+.top-flags
 {
   min-height:0!important;
   text-align:right;
 }
 
-.top-line img.countries-lang
+.top-flags img.countries-lang
 {
   float:left;
   padding-bottom:6px;
 }
 
-.top-line a img:not(.polska-margin)
+.top-flags a img:not(.polska-margin)
 {
   margin-left:9px !important;
 }
@@ -74,6 +74,7 @@ html
   font-size:68%;
   opacity:.8;
   padding-right:16px;
+  padding-top:4px;
   visibility:hidden;
 }
 
@@ -199,7 +200,7 @@ img.print-color-pdf
   bottom:16px;
   cursor:pointer;
   position:fixed;
-  left:58px;
+  left:100px;
   opacity: .5;
   vertical-align:middle;
   -moz-transition:opacity .7s ease-out;
@@ -225,7 +226,7 @@ img.print-color-no
   bottom:16px;
   cursor:pointer;
   position:fixed;
-  left:100px;
+  left:58px;
   opacity: .5;
   vertical-align:middle;
   -moz-transition:opacity .7s ease-out;
