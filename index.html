@@ -2,14 +2,15 @@
 <html lang="pl">
 
 <head>
-    <link rel="stylesheet" media="screen" href="css/media.css">
-    
-    <link rel="icon" href="img/favicon.png">
-
+ 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta content="Mirosława Wawszko" name="copyright">
+
+    <link rel="stylesheet" media="print" href="css/print-color.css">
+    <link rel="stylesheet" media="screen" href="css/media.css">
+    <link rel="icon" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
     <link charset="utf-8" href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link charset="utf-8" href="css/styles.css" rel="stylesheet" type="text/css">
@@ -329,10 +330,17 @@
     </div>
 </body>
 
-    <img class="print-color" src="img/icon_print.png" alt="print-color" onclick="changeCSS('./css/print-color.css', 0);">
-    <img class="print-color-pdf" src="img/icon_print.png" alt="print-color-pdf" onclick="changeCSS('css/print-color-pdf.css', 1);">
-    <img class="print-no-color" src="img/icon_print.png" alt="print-no-color" onclick="changeCSS('css/print-no-color.css', 2);">
+<img class="print" src="img/icons-bear-footprint.png" alt="print" onclick="window.print()">
+<!-- <img class="print-color-pdf" src="img/icon_print.png" alt="print-color-pdf" onclick="changeCSS('css/print-color-pdf.css', 0);"> -->
+<div class="test">
+     
 
+                <img class="print-color" src="img/print-in-color.png" alt="print-color" id="1">
+                <img class="print-color-pdf" src="img/print-in-bw.png" alt="print-color" id="2">
+                <img class="print-color-no" src="img/print-fot-internet.png" alt="print-color" id="3">
+          
+    </div>
+ 
     <a href="#0" class="cd-top js-cd-top">Top</a>
 
     <script src="js/jquery-3.3.1.min.js"></script>

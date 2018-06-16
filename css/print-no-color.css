@@ -1,6 +1,5 @@
 @media print {
-
-    html{
-        display: none;
-    }
+    @media print {
+        html{display: none;}
+     }
 }

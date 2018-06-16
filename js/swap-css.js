@@ -1,12 +1,38 @@
-function changeCSS(cssFile, cssLinkIndex) {
+$(document).ready(function() {
 
-    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+    $("img#1").click(function() {
+    $("link[media=print]").attr({href : "css/print-color.css"});
+    });
+     
+    $("img#2").click(function() {
+    $("link[media=print]").attr({href : "css/print-color-pdf.css"});
+    });
+     
+    $("img#3").click(function() {
+    $("link[media=print]").attr({href : "css/print-no-color.css"});
+    });
 
-    var newlink = document.createElement("link");
-    newlink.setAttribute("rel", "stylesheet");
-    newlink.setAttribute("href", cssFile);
-    newlink.setAttribute("media", "print");
+    // $('img#1.print-color').on('click', function(){
+    
+    //     $(this).addClass('active');
+    // });
 
-    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
-    window.print();
-}
+    // $('img#2.print-color-pdf').on('click', function(){
+    
+    //     $(this).addClass('active');
+    // });
+
+    // $('img#3.print-color-no').on('click', function(){
+    
+    //     $(this).addClass('active');
+    // });
+
+    $("img[id]").click(function(){
+        $(".active").removeClass("active");
+        $(this).addClass("active")
+   
+    });
+
+    });
+
+   
