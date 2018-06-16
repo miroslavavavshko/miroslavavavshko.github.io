@@ -123,7 +123,7 @@ img.pdf
   position: relative;
 }
 
-img.print
+img.print-color
 {
   background-color:transparent;
   border:none;
@@ -139,13 +139,74 @@ img.print
   transition:opacity .7s ease-out;
 }
 
-img.print:hover
+img.print-color:hover
 {
+  cursor: pointer;
   -moz-transition:opacity .7s ease-out;
   -o-transition:opacity .7s ease-out;
   -webkit-transition:opacity .7s ease-out;
   opacity:1;
   transition:opacity .7s ease-out;
+}
+
+img.print-no-color
+{
+  background-color:transparent;
+  border:none;
+  bottom:16px;
+  cursor:pointer;
+  opacity:0;
+  position:fixed;
+  left:60px;
+  vertical-align:middle;
+  -moz-transition:opacity .7s ease-out;
+  -o-transition:opacity .7s ease-out;
+  -webkit-transition:opacity .7s ease-out;
+  transition:opacity .7s ease-out;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+img.print-no-color:hover
+{
+  cursor: pointer;
+  -moz-transition:opacity .7s ease-out;
+  -o-transition:opacity .7s ease-out;
+  -webkit-transition:opacity .7s ease-out;
+  opacity:1;
+  transition:opacity .7s ease-out;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+img.print-color-pdf
+{
+  background-color:transparent;
+  border:none;
+  bottom:16px;
+  cursor:pointer;
+  opacity:0;
+  position:fixed;
+  left:106px;
+  vertical-align:middle;
+  -moz-transition:opacity .7s ease-out;
+  -o-transition:opacity .7s ease-out;
+  -webkit-transition:opacity .7s ease-out;
+  transition:opacity .7s ease-out;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+img.print-color-pdf:hover
+{
+  cursor: pointer;
+  -moz-transition:opacity .7s ease-out;
+  -o-transition:opacity .7s ease-out;
+  -webkit-transition:opacity .7s ease-out;
+  opacity:1;
+  transition:opacity .7s ease-out;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 p
