@@ -1,4 +1,5 @@
-let language = navigator.language || navigator.browserLanguage;
+let language = navigator.language;
+
 if (language.indexOf('en') > -1) {
     document.location.href = 'en.html';
 } else if (language.indexOf('pl') > -1) {
