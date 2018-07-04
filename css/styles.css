@@ -87,7 +87,7 @@ img.countries {
 img.countries-lang {
 	height: 9px;
 	position: relative;
-	left: 13px;
+	left: 5px;
 	top: 3px;
 }
 
@@ -230,11 +230,6 @@ section.info {
 	color: #000;
 }
 
-section.skills ul li {
-	line-height: 1.7em;
-	padding-top: 2px;
-}
-
 span.exclamation_text {
 	display: inline-block;
 	font-size: 12px;
@@ -280,7 +275,7 @@ td.brief {
 
 td.diploma-school {
 	line-height: 18px;
-	padding-bottom: 16px!important;
+	padding-bottom: 16px !important;
 }
 
 td.pdf-table {
@@ -324,7 +319,8 @@ ul {
 }
 
 ul li {
-	line-height: 1.8rem;
+	padding-top: 2px;
+	line-height: 1.7rem;
 }
 
 ul.flags {

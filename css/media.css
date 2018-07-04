@@ -23,23 +23,23 @@
 }
 
 @media only screen and (max-width: 768px) {
-	img.print, img.print-color, img.print-color-pdf, img.print-color-no {
+	.print-choose {
 		position: relative !important;
 	}
 	img.print {
-		left: 73px !important;
+		left: 54px !important;
 		bottom: 64px !important;
 	}
 	img.print-color {
-		left: 0 !important;
+		left: 16px !important;
 		bottom: 16px !important;
 	}
 	img.print-color-no {
-		left: 11px !important;
+		left: 52px !important;
 		bottom: 16px !important;
 	}
 	img.print-color-pdf {
-		left: 23px !important;
+		left: 88px !important;
 		bottom: 16px !important;
 	}
 	#go-top {
@@ -47,12 +47,46 @@
 		height: 36px!important;
 	}
 	section.education td.text-right {
-		font-size: 13px !important;
+		font-size: 12px !important;
 	}
 	section.courses td.text-right {
-		font-size: 13px !important;
+		font-size: 12px !important;
 	}
 	section.experience td.text-right {
-		font-size: 13px !important;
+		font-size: 12px !important;
 	}
+	td span.caption{
+		margin-bottom: 10px !important;
+	}
+
+	td.text-right{
+		padding-left: 1px !important;
+		padding-right: 0 !important;
+		font-size: 12px !important;
+	}
+	/*td.text-right.data-sm-align{*/
+		/*text-align: left !important;*/
+	/*}*/
+	td {
+		font-size: 14px !important;
+	}
+	td span.caption {
+		font-size: 20px !important;
+	}
+
+	td span.name {
+		font-size: 20px !important;
+	}
+	.table {
+		margin-bottom: 0 !important;
+	}
+
+	td.w-50.left-info,td.w-50.right-info {
+		font-size: 12px !important;
+	}
+
+	td.diploma-school{
+		padding-bottom: 10px !important;
+	}
+
 }
