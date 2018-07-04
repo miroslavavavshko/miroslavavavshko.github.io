@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ en.html [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^ru [NC]
+RewriteRule ^$ ru.html [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^pl [NC]
+RewriteRule ^$ pl.html [L,R=301]
