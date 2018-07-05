@@ -1,10 +1,3 @@
-$(function() {
+$('body').bind('touchmove', function(e){e.preventDefault()})
 
-    var $body = $(document);
-    $body.bind('scroll', function() {
-        if ($body.scrollLeft() !== 0) {
-            $body.scrollLeft(0);
-        }
-    });
-
-});
+$('body').unbind('touchmove')

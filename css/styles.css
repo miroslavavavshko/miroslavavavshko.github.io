@@ -379,3 +379,8 @@ ul.social {
 	-webkit-transition: opacity 4s ease-in-out 2s;
 	transition: opacity 4s ease-in-out 2s;
 }
+
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
