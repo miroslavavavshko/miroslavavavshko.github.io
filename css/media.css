@@ -147,4 +147,8 @@
 	.top-flags img.countries-lang{
 		float: none !important;
 	}
+
+	.telefon-number {
+		margin-top: 7px !important;
+	}
 }
