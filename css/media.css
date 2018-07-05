@@ -93,7 +93,43 @@
 	}
 
 	#go-top{
-		display:none;
+		display:none !important;
+	}
+
+	section.info{
+		padding-top: 0 !important;
+	}
+
+	/* english version */
+
+	.english-padding-top {
+		padding-top: 0 !important;
+	}
+
+	/* russian version */
+
+	.russian-padding-top {
+		padding-top: 0 !important;
+	}
+
+	/* belorussian version */
+
+	.belorussian-padding-top {
+		padding-top: 0 !important;
+	}
+
+	/* ukrainian version */
+
+	.ukrainian-padding-top {
+		padding-top: 0 !important;
+	}
+
+	.hide{
+		display:none !important;
+	}
+
+	.exclamation{
+		padding-top: 10px;
 	}
 
 }
