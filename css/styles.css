@@ -35,9 +35,10 @@ html {
 }
 
 .telefon-number {
+	font-size: 16px;
 	color: #000;
 	display: inline-block;
-	margin-top: 16px;
+	margin-top: 7px;
 }
 
 .telefon-number span.telefon-pl, .telefon-number span.telefon {
@@ -266,7 +267,7 @@ td span.name {
 	font-size: 26px;
 	font-weight: 700;
 	line-height: 34px;
-	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 td.brief {
@@ -387,4 +388,8 @@ ul.social {
 
 .status-pl{
 	font-size: 11px !important;
+}
+
+td.text-right.pc{
+	padding-top: 2px;
 }
