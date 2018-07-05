@@ -92,4 +92,8 @@
 		padding-bottom: 10px !important;
 	}
 
+	#go-top{
+		display:none;
+	}
+
 }
