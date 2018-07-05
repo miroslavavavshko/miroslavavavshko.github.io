@@ -13,9 +13,10 @@ html {
 	border-radius: .25rem!important;
 	display: inline;
 	font-size: .72rem;
-	line-height: 0;
+	line-height: 34px;
 	opacity: .9;
 	padding: 4px;
+	word-break: break-all;
 }
 
 .table th, .table td {

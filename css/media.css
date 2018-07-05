@@ -94,6 +94,7 @@
 	}
 	td span.name {
 		font-size: 20px !important;
+		margin-bottom: 0 !important;
 	}
 	.table {
 		margin-bottom: 0 !important;
@@ -141,10 +142,6 @@
 
 	.hide{
 		display:none !important;
-	}
-
-	.exclamation{
-		padding-top: 10px;
 	}
 
 	.top-flags img.countries-lang{
