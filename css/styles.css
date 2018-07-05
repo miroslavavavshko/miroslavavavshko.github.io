@@ -339,22 +339,6 @@ ul.social {
 	padding-left: 1rem!important;
 }
 
-@media only screen and (min-width: 768px) {
-	.cd-top {
-		right: 20px;
-		bottom: 20px;
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-	.cd-top {
-		height: 60px;
-		width: 60px;
-		right: 16px;
-		bottom: 16px;
-	}
-}
-
 .text-left {
 	padding-left: 10px;
 }
@@ -375,7 +359,6 @@ ul.social {
 	opacity:0;
 	width: 150px;
 	height: 100px;
-	/*border: 1px solid blue;*/
 	position: fixed;
 	left: 0;
 	bottom: 0;

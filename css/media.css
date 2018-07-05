@@ -22,6 +22,22 @@
 	}
 }
 
+@media only screen and (min-width: 768px) {
+	.cd-top {
+		right: 20px;
+		bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.cd-top {
+		height: 60px;
+		width: 60px;
+		right: 16px;
+		bottom: 16px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	html{
 		overflow-x:hidden !important;
@@ -76,27 +92,26 @@
 	td span.caption {
 		font-size: 20px !important;
 	}
-
 	td span.name {
 		font-size: 20px !important;
 	}
 	.table {
 		margin-bottom: 0 !important;
 	}
-
 	td.w-50.left-info,td.w-50.right-info {
 		font-size: 12px !important;
 	}
-
 	td.diploma-school{
 		padding-bottom: 10px !important;
 	}
-
 	#go-top{
 		display:none !important;
 	}
-
 	section.info{
+		padding-top: 31px !important;
+	}
+
+	section.info.info-pl{
 		padding-top: 0 !important;
 	}
 
@@ -132,4 +147,7 @@
 		padding-top: 10px;
 	}
 
+	.top-flags img.countries-lang{
+		float: none !important;
+	}
 }
