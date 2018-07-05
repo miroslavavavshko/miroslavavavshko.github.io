@@ -23,8 +23,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+	html{
+		overflow-x:hidden !important;
+	}
 	.print-choose {
-		position: relative !important;
+		display:none;
 	}
 	img.print {
 		left: 54px !important;
