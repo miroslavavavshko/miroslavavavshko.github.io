@@ -151,4 +151,8 @@
 	.telefon-number {
 		margin-top: 7px !important;
 	}
+
+	td.text-right.public-links {
+		font-size: 14px !important;
+	}
 }
