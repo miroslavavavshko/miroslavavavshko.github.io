@@ -41,28 +41,4 @@
 	td.padding-for-print {
 		padding-top: 80px !important;
 	}
-	
-	/* english version */
-
-	.english-padding-top {
-		padding-top: 103px !important;
-	}
-
-	/* russian version */
-
-	.russian-padding-top {
-		padding-top: 103px !important;
-	}
-
-	/* belorussian version */
-
-	.belorussian-padding-top {
-		padding-top: 103px !important;
-	}
-
-	/* ukrainian version */
-
-	.ukrainian-padding-top {
-		padding-top: 103px !important;
-	}
 }

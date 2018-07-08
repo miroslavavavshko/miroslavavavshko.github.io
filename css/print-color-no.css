@@ -45,28 +45,4 @@
 	img.rounded, img.countries-surname, img.countries {
 		visibility: hidden;
 	}
-
-	/* english version */
-
-	.english-padding-top {
-		padding-top: 103px !important;
-	}
-
-	/* russian version */
-
-	.russian-padding-top {
-		padding-top: 103px !important;
-	}
-
-	/* belorussian version */
-
-	.belorussian-padding-top {
-		padding-top: 103px !important;
-	}
-
-	/* ukrainian version */
-
-	.ukrainian-padding-top {
-		padding-top: 103px !important;
-	}
 }
