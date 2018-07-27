@@ -404,6 +404,9 @@ section.skills ul,td.text-right.pc{
 
 section.public td span.caption{
 	display: inline-block;
-	padding-bottom: 6px;
+	padding-bottom: 10px;
+}
 
+section.hobby span.caption{
+	padding-bottom: 6px !important;
 }
