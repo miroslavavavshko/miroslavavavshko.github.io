@@ -396,3 +396,13 @@ td.text-right.pc{
 section.public{
 	line-height: 4px;
 }
+
+section.skills ul,td.text-right.pc{
+	padding-top: 10px !important
+}
+
+section.public td span.caption,section.hobby td span.caption{
+	display: inline-block;
+	padding-bottom: 10px;
+
+}
