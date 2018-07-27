@@ -155,4 +155,12 @@
 	td.text-right.public-links {
 		font-size: 14px !important;
 	}
+
+	section.info ul li img.countries{
+		display: none;
+	}
+
+	section.education,section.courses,section.experience img.countries{
+		display: none;
+	}
 }
