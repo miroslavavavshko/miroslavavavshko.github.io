@@ -398,7 +398,8 @@ section.public{
 }
 
 section.skills ul,td.text-right.pc{
-	padding-top: 10px !important
+	padding-top: 10px !important;
+	margin-top: -4px !important;
 }
 
 section.public td span.caption{
