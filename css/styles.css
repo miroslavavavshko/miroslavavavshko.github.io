@@ -410,3 +410,7 @@ section.public td span.caption{
 section.hobby span.caption{
 	padding-bottom: 6px !important;
 }
+
+section.education td span.caption{
+	padding-top: 50px;
+}
