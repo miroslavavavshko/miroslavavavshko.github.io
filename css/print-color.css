@@ -41,4 +41,28 @@
 	td.padding-for-print {
 		padding-top: 80px !important;
 	}
+
+	section.education td span.caption {
+		padding-top: 25px !important;
+	}
+
+	.english-padding-top{
+		padding-top: 10px !important;
+	}
+
+	.russian-padding-top{
+		padding-top: 10px !important;
+	}
+
+	.belarusian-padding-top{
+		padding-top: 10px !important;
+	}
+
+	.ukrainian-padding-top{
+		padding-top: 10px !important;
+	}
+
+	section.public table.table{
+		margin-bottom: 20px !important;
+	}
 }
