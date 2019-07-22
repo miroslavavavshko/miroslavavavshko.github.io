@@ -414,3 +414,7 @@ section.hobby span.caption{
 section.education td span.caption{
 	padding-top: 50px;
 }
+
+section.info td.text-right img{
+	width: 100px;
+}
