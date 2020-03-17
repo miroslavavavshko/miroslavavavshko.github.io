@@ -10,7 +10,7 @@ if (language.indexOf('en') > -1) {
     document.location.href = 'ru.html';
 } else if (language.indexOf('by') > -1) {
     document.location.href = 'by.html';
-} else if (language.indexOf('ua') > -1) {
+} else if (language.indexOf('uk') > -1) {
     document.location.href = 'ua.html';
 } else {
     document.location.href = 'en.html'; }
