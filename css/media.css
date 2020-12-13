@@ -1,186 +1,185 @@
 @media only screen and (min-width: 1365px) {
-	.top.col-md-12 {
-		max-width: 61% !important;
-	}
-	.top.col-xl-8 {
-		max-width: 57.666667%;
-	}
+  .top.col-md-12 {
+    max-width: 61% !important;
+  }
+  .top.col-xl-8 {
+    max-width: 57.666667%;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1365px) {
-	.top.col-lg-11 {
-		max-width: 79.333333% !important;
-	}
-	.top.col-md-12 {
-		max-width: 79.333333% !important;
-	}
+  .top.col-lg-11 {
+    max-width: 79.333333% !important;
+  }
+  .top.col-md-12 {
+    max-width: 79.333333% !important;
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-	.top.col-md-12 {
-		max-width: 100% !important;
-	}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  .top.col-md-12 {
+    max-width: 100% !important;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-	.cd-top {
-		right: 20px;
-		bottom: 20px;
-	}
+@media only screen and (min-width: 767px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-	.cd-top {
-		height: 60px;
-		width: 60px;
-		right: 16px;
-		bottom: 16px;
-	}
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 16px;
+    bottom: 16px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
-	html{
-		overflow-x:hidden !important;
-	}
-	.print-choose {
-		display:none;
-	}
-	img.print {
-		left: 54px !important;
-		bottom: 64px !important;
-	}
-	img.print-color {
-		left: 16px !important;
-		bottom: 16px !important;
-	}
-	img.print-color-no {
-		left: 52px !important;
-		bottom: 16px !important;
-	}
-	img.print-color-pdf {
-		left: 88px !important;
-		bottom: 16px !important;
-	}
-	#go-top {
-		width: 36px!important;
-		height: 36px!important;
-	}
-	section.education td.text-right {
-		font-size: 12px !important;
-	}
-	section.courses td.text-right {
-		font-size: 12px !important;
-	}
-	section.experience td.text-right {
-		font-size: 12px !important;
-	}
-	td span.caption{
-		margin-bottom: 10px !important;
-	}
+@media only screen and (max-width: 767px) {
+  html {
+    overflow-x: hidden !important;
+  }
+  .print-choose {
+    display: none;
+  }
+  img.print {
+    left: 54px !important;
+    bottom: 64px !important;
+  }
+  img.print-color {
+    left: 16px !important;
+    bottom: 16px !important;
+  }
+  img.print-color-no {
+    left: 52px !important;
+    bottom: 16px !important;
+  }
+  img.print-color-pdf {
+    left: 88px !important;
+    bottom: 16px !important;
+  }
+  #go-top {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  section.education td.text-right {
+    font-size: 12px !important;
+  }
+  section.courses td.text-right {
+    font-size: 12px !important;
+  }
+  section.experience td.text-right {
+    font-size: 12px !important;
+  }
+  td span.caption {
+    margin-bottom: 10px !important;
+  }
 
-	td.text-right{
-		padding-left: 1px !important;
-		padding-right: 0 !important;
-		font-size: 13px !important;
-	}
-	/*td.text-right.data-sm-align{*/
-		/*text-align: left !important;*/
-	/*}*/
-	td {
-		font-size: 14px !important;
-	}
-	td span.caption {
-		font-size: 20px !important;
-	}
-	td span.name {
-		font-size: 20px !important;
-		margin-bottom: 0 !important;
-	}
-	.table {
-		margin-bottom: 0 !important;
-	}
-	td.w-50.left-info,td.w-50.right-info {
-		font-size: 12px !important;
-	}
-	td.diploma-school{
-		padding-bottom: 10px !important;
-	}
-	#go-top{
-		display:none !important;
-	}
-	section.info{
-		padding-top: 31px !important;
-	}
+  td.text-right {
+    padding-left: 1px !important;
+    padding-right: 0 !important;
+    font-size: 13px !important;
+  }
+  /*td.text-right.data-sm-align{*/
+  /*text-align: left !important;*/
+  /*}*/
+  td {
+    font-size: 14px !important;
+  }
+  td span.caption {
+    font-size: 20px !important;
+  }
+  td span.name {
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+  }
+  .table {
+    margin-bottom: 0 !important;
+  }
+  td.w-50.left-info,
+  td.w-50.right-info {
+    font-size: 12px !important;
+  }
+  td.diploma-school {
+    padding-bottom: 10px !important;
+  }
+  #go-top {
+    display: none !important;
+  }
+  section.info {
+    padding-top: 50px !important;
+  }
 
-	section.info.info-pl{
-		padding-top: 0 !important;
-	}
+  section.info.info-pl {
+    padding-top: 0 !important;
+  }
 
-	/* english version */
+  /* english version */
 
-	.english-padding-top {
-		padding-top: 0 !important;
-	}
+  .english-padding-top {
+    padding-top: 0 !important;
+  }
 
-	/* germany version */
+  /* germany version */
 
-	.germany-padding-top {
-		padding-top: 0 !important;
-	}
+  .germany-padding-top {
+    padding-top: 0 !important;
+  }
 
-	/* russian version */
+  /* russian version */
 
-	.russian-padding-top {
-		padding-top: 0 !important;
-	}
+  .russian-padding-top {
+    padding-top: 0 !important;
+  }
 
-	/* belarusian version */
+  /* belarusian version */
 
-	.belarusian-padding-top {
-		padding-top: 0 !important;
-	}
+  .belarusian-padding-top {
+    padding-top: 0 !important;
+  }
 
-	/* ukrainian version */
+  /* ukrainian version */
 
-	.ukrainian-padding-top {
-		padding-top: 0 !important;
-	}
+  .ukrainian-padding-top {
+    padding-top: 0 !important;
+  }
 
-	.hide{
-		display:none !important;
-	}
+  .hide {
+    display: none !important;
+  }
 
-	.top-flags img.countries-lang{
-		float: none !important;
-	}
+  .telefon-number {
+    margin-top: 7px !important;
+  }
 
-	.telefon-number {
-		margin-top: 7px !important;
-	}
+  td.text-right.public-links {
+    font-size: 14px !important;
+  }
 
-	td.text-right.public-links {
-		font-size: 14px !important;
-	}
+  section.info ul li img.countries {
+    display: none;
+  }
 
-	section.info ul li img.countries{
-		display: none;
-	}
+  section.education img.countries {
+    display: none;
+  }
 
-	section.education img.countries{
-		display: none;
-	}
+  section.courses img.experience {
+    display: none;
+  }
 
-	section.courses img.experience{
-		 display: none;
-	 }
+  section.courses img.countries {
+    display: none;
+  }
 
-	section.courses img.countries{
-		display: none;
-	}
+  section.education td span.caption {
+    padding-top: 20px !important;
+  }
 
-	section.education td span.caption{
-		padding-top: 20px !important;
-	}
-
-
+  .top-flags.d-inline {
+    display: inline-block !important;
+  }
 }
