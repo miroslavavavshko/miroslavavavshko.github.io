@@ -412,7 +412,6 @@ td.text-right.pc {
 }
 
 section.public td span.caption {
-  display: inline-block;
   margin-bottom: 20px !important;
 }
 
