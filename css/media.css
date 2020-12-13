@@ -77,11 +77,9 @@
   td span.caption {
     margin-bottom: 10px !important;
   }
-
   section.public td span.caption {
-    font-size: 20px !important;
+    margin-bottom: 25px !important;
   }
-
   td.text-right {
     padding-left: 1px !important;
     padding-right: 0 !important;
