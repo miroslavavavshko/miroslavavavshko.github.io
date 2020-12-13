@@ -78,6 +78,10 @@
     margin-bottom: 10px !important;
   }
 
+  section.public td span.caption {
+    font-size: 20px !important;
+  }
+
   td.text-right {
     padding-left: 1px !important;
     padding-right: 0 !important;
@@ -164,15 +168,15 @@
   }
 
   section.education img.countries {
-    display: none;
+    /* display: none; */
   }
 
   section.courses img.experience {
-    display: none;
+    /* display: none; */
   }
 
   section.courses img.countries {
-    display: none;
+    /* display: none; */
   }
 
   section.education td span.caption {
