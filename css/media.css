@@ -114,7 +114,7 @@
   }
 
   section.info.info-pl {
-    padding-top: 0 !important;
+    padding-top: 50px !important;
   }
 
   /* english version */
@@ -160,7 +160,7 @@
   }
 
   section.info ul li img.countries {
-    display: none;
+    /* display: none; */
   }
 
   section.education img.countries {
@@ -176,7 +176,7 @@
   }
 
   section.education td span.caption {
-    padding-top: 20px !important;
+    /* padding-top: 20px !important; */
   }
 
   .top-flags.d-inline {
