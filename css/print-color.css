@@ -42,12 +42,12 @@
   }
 
   /* td.padding-for-print {
-		padding-top: 80px !important;
-	} */
-
-  /* section.education td span.caption {
-    padding-top: 25px !important;
+    padding-top: 40px !important;
   } */
+
+  section.skills td span.caption {
+    padding-top: 25px !important;
+  }
 
   .english-padding-top {
     padding-top: 10px !important;

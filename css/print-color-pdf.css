@@ -1,70 +1,73 @@
 @media print {
-	a {
-		text-decoration: none!important;
-		color: #26303c;
-	}
+  a {
+    text-decoration: none !important;
+    color: #26303c;
+  }
 
-	.top-text {
-		visibility: visible!important;
-		opacity: .5!important;
-	}
+  .top-text {
+    visibility: visible !important;
+    opacity: 0.5 !important;
+  }
 
-	.exclamation {
-		padding-left: 0 !important;
-	}
+  .exclamation {
+    padding-left: 0 !important;
+  }
 
-	.top-flags {
-		visibility: hidden;
-	}
+  .top-flags {
+    visibility: hidden;
+  }
 
-	img.print, img.print-color, img.print-color-pdf, img.print-color-no {
-		display: none;
-	}
+  img.print,
+  img.print-color,
+  img.print-color-pdf,
+  img.print-color-no {
+    display: none;
+  }
 
-	.agreement {
-		display: block!important;
-	}
+  .agreement {
+    display: block !important;
+  }
 
-	td.padding-for-print {
-		padding-top: 80px !important;
-	}
+  td.padding-for-print {
+    padding-top: 80px !important;
+  }
 
-	@media (min-width: 768px) {
-		.col-md-12 {
-			max-width: 80% !important;
-		}
-	}
+  @media (min-width: 768px) {
+    .col-md-12 {
+      max-width: 80% !important;
+    }
+  }
 
-	td.pdf-table img {
-		height: 40px !important;
-		width: 40px !important;
-	}
+  td.pdf-table img {
+    height: 40px !important;
+    width: 40px !important;
+  }
 
-	section.education td span.caption {
-		padding-top: 25px !important;
-	}
+  section.skills td span.caption {
+    padding-top: 25px !important;
+  }
 
-	.english-padding-top{
-		padding-top: 10px !important;
-	}
+  .english-padding-top {
+    padding-top: 10px !important;
+  }
 
-	.germany-padding-top{
-		padding-top: 10px !important;
-	}
+  .germany-padding-top {
+    padding-top: 10px !important;
+  }
 
-	.russian-padding-top{
-		padding-top: 10px !important;
-	}
+  .russian-padding-top {
+    padding-top: 10px !important;
+  }
 
-	.belarusian-padding-top{
-		padding-top: 10px !important;
-	}
+  .belarusian-padding-top {
+    padding-top: 10px !important;
+  }
 
-	.ukrainian-padding-top{
-		padding-top: 10px !important;
-	}
+  .ukrainian-padding-top {
+    padding-top: 10px !important;
+  }
 
-	section.public table.table{
-		margin-bottom: 20px !important;
-	}
+  section.public table.table {
+    margin-bottom: 20px !important;
+  }
 }
